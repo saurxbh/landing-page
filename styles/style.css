@@ -37,7 +37,8 @@ ul {
 }
 
 a,
-.hero-subtext {
+.hero-subtext,
+.text-lower {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -50,7 +51,8 @@ a {
     padding-bottom: 16px;
 }
 
-.logo {
+.logo,
+.text-upper {
     color: #f9faf8;
     font-size: 24px;
 }
@@ -75,13 +77,23 @@ a {
     padding-bottom: 16px;
 }
 
-.container button {
+.container button,
+.right button {
     cursor: pointer;
+    width: 120px;
+    height: 40px;
     padding: 8px 16px;
     border-radius: 8px;
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882f6;
     color: white;
+}
+
+.container button {
+    border: 1px solid #3882f6; 
+}
+
+.right button {
+    border: 1px solid #f9faf8;
 }
 
 .carousel {
@@ -157,4 +169,43 @@ a {
     padding-top: 8px;
     padding-left: 600px;
     font-size: 18px;
+}
+
+.peddle {
+    display: flex;
+    min-height: 420px;
+    padding: 120px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-box {
+    display: flex;
+    width: 1200px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    flex: 1;
+    padding: 0 180px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    min-height: 72px;
+    display: flex;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
 }
