@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.header {
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 240px;
+    padding-bottom: 80px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+}
+
+a,
+.hero-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-subtext {
+    padding-bottom: 16px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 240px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.hero-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 16px;
+}
+
+.container button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 480px;
+    padding: 16px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 8px;
+}
+
+.button-container {
+    display: flex;
+    padding: 0 240px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 40px;
+}
+
+.button-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.button {
+    border: 3px solid #3882f6;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+}
+
+.button img {
+    border-radius: 7px;
+    width: 154px;
+    height: 154px;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+}
